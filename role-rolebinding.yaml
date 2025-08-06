@@ -5,8 +5,8 @@ metadata:
   namespace: roboshop
   name: roboshop-trainee-role
 rules:
-- apiGroups: [""] # "" indicates the core API group
-  resources: ["pods"]
+- apiGroups: ["*"] # "" indicates the core API group
+  resources: ["*"]
   verbs: ["get", "watch", "list"]
 
 ---
