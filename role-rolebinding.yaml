@@ -9,7 +9,7 @@ rules:
   resources: ["pods"]
   verbs: ["get", "watch", "list"]
 
-  ---
+---
 apiVersion: rbac.authorization.k8s.io/v1
 # This role binding allows "tim" to read pods in the "roboshop" namespace.
 # You need to already have a Role named "roboshop-trainee" in that namespace.
