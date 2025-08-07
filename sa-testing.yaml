@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: aws-cli
+  namespace: roboshop
+  labels:
+    purpose: sa
+spec:
+  serviceAccount: roboshop-mysql-secret-reader
+  containers:
+  - name: awscli
+    image: amazon/aws-cli
+    command: ["sleep","10000"]
