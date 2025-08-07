@@ -5,7 +5,7 @@ It is non human user that pod uses to run. by default when we create namespace a
 1. Create OIDC provider
 
 REGION_CODE=us-east-1
-CLUSTER_NAME=roboshop-dev
+CLUSTER_NAME=roboshop
 ACC_ID=338556495561
 
 eksctl utils associate-iam-oidc-provider \

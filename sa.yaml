@@ -30,7 +30,7 @@ spec:
         emptyDir: {}
       containers:
       - name: mysql
-        image: joindevops/mysql:v2
+        image: janardhanaau/mysql:v2
         imagePullPolicy: Always
         volumeMounts:
         - mountPath: /tmp
@@ -65,3 +65,5 @@ spec:
   - protocol: TCP
     port: 3306 # service port
     targetPort: 3306 # container port
+
+   
